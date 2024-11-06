@@ -1,0 +1,30 @@
+---
+type Props = {
+  title: string;
+};
+
+const { title } = Astro.props;
+---
+
+<meta charset='utf-8' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<meta name='viewport' content='width=device-width, initial-scale=1' />
+<meta name='theme-color' content='#3f1e1e' />
+<meta name='generator' content={Astro.generator} />
+
+<title>{title}</title>
+
+<meta name='description' content="TEEMU KAKKO. Hey, I'm Teemu, a Finnish programmer journalist." />
+<meta name='author' content='Teemu Kakko' />
+<meta name='keywords' content='Teemu, Kakko, journalist, programmer, developer, koodaava, toimittaja, Yle, Tampere' />
+
+<meta property='og:url' content='https://kakkoteemu.fi/' />
+<meta property='og:type' content='website' />
+<meta property='og:image' content='/share.png' />
+<meta property='og:description' content="Hey, I'm Teemu, a Finnish programmer journalist." />
+<meta property='og:title' content='Teemu Kakko' />
+
+<link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
+<link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
+<link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
+<link rel='manifest' href='/site.webmanifest' />
