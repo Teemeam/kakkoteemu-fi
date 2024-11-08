@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        playfair: ['Playfair Display', 'Montserrat', ...defaultTheme.fontFamily.serif],
       },
     },
   },

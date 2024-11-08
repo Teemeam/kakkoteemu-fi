@@ -20,6 +20,9 @@ importers:
       '@fontsource-variable/montserrat':
         specifier: ^5.1.0
         version: 5.1.0
+      '@fontsource-variable/playfair-display':
+        specifier: ^5.1.0
+        version: 5.1.0
       astro:
         specifier: ^4.16.10
         version: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)
@@ -377,6 +380,9 @@ packages:
 
   '@fontsource-variable/montserrat@5.1.0':
     resolution: {integrity: sha512-1bloVBKJx/ABBmF+/VzhJZDLzaDNUxw/8Pt5AOgfKL6N3t1fAhwtJBb1gdqU7ABckSNLsKf572A5Inv9YneRug==}
+
+  '@fontsource-variable/playfair-display@5.1.0':
+    resolution: {integrity: sha512-51UJAHznXiGkchEOT5AYFuIy9N9m1JE7YxcdOtY0H4SKgzK9YYGKpeCXv3dz2e1gAd+BP2TyR0QXNnVjgeCbgw==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2607,6 +2613,8 @@ snapshots:
     optional: true
 
   '@fontsource-variable/montserrat@5.1.0': {}
+
+  '@fontsource-variable/playfair-display@5.1.0': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
