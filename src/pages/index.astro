@@ -3,11 +3,30 @@
 import Layout from '~/layouts/Layout.astro';
 
 /* Components */
+import About from '~/components/About.astro';
+import Articles from '~/components/Articles';
+import Circles from '~/components/Circles.astro';
+import Footer from '~/components/Footer.astro';
 import Landing from '~/components/Landing.astro';
 ---
 
 <Layout title='Teemu Kakko'>
   <header>
+    <Circles />
     <Landing />
   </header>
+
+  <main>
+    <section>
+      <About />
+    </section>
+
+    <section>
+      <Articles />
+    </section>
+  </main>
+
+  <footer>
+    <Footer />
+  </footer>
 </Layout>
