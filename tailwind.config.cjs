@@ -19,8 +19,8 @@ module.exports = {
         orange: '#fb544d',
       },
       fontFamily: {
-        montserrat: ['Montserrat', ...defaultTheme.fontFamily.sans],
-        playfair: ['Playfair Display', 'Montserrat', ...defaultTheme.fontFamily.serif],
+        montserrat: ['Montserrat\\ Variable', 'ui-sans-serif', ...defaultTheme.fontFamily.sans],
+        playfair: ['Playfair\\ Display\\ Variable', 'Montserrat', 'ui-serif'],
       },
     },
   },
