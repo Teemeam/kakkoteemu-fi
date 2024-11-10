@@ -80,10 +80,10 @@ const Articles: FC<Props> = () => {
          * Button header
          */}
         <div className='my-7 text-center'>
-          <h2 className='my-5 font-playfair text-2xl font-black text-black sm:text-4xl md:text-4xl'>
+          <h2 className='my-5 font-playfair text-3xl font-black text-black sm:text-4xl md:my-7 md:text-5xl'>
             Recent stories
           </h2>
-          <p className='my-5 font-montserrat text-base font-light text-black sm:text-lg md:text-xl'>
+          <p className='my-5 font-montserrat text-lg font-light text-black sm:text-xl md:my-7 md:text-2xl'>
             Search by category
           </p>
         </div>
@@ -110,7 +110,9 @@ const Articles: FC<Props> = () => {
                 } group-hover:opacity-100`}
               />
 
-              <p className='px-3 py-2 font-montserrat font-extrabold sm:px-5'>{label}</p>
+              <p className='px-3 py-2 font-montserrat font-extrabold sm:px-5 sm:text-lg md:text-xl'>
+                {label}
+              </p>
             </button>
           ))}
         </div>
@@ -119,7 +121,7 @@ const Articles: FC<Props> = () => {
          * Input header
          */}
         <div className='mb-5 mt-7 text-center'>
-          <p className='font-montserrat text-base font-light text-black sm:text-lg md:text-xl'>
+          <p className='font-montserrat text-lg font-light text-black sm:text-xl md:text-2xl'>
             or start typing
           </p>
         </div>
@@ -129,7 +131,7 @@ const Articles: FC<Props> = () => {
          */}
         <div className='mb-7 mt-5 text-center'>
           <input
-            className='w-11/12 max-w-80 border-b border-black bg-transparent pb-0.5 text-center font-montserrat text-base font-light focus:outline-none sm:text-lg md:text-xl'
+            className='w-11/12 max-w-80 border-b border-black bg-transparent pb-0.5 text-center font-montserrat text-lg font-light focus:outline-none sm:text-xl md:text-2xl'
             value={inputValue}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputValue(e.target.value)}
           />
@@ -142,7 +144,7 @@ const Articles: FC<Props> = () => {
           {filtered_articles.length > 0 ? (
             data
           ) : (
-            <p className='text-center font-montserrat text-base font-light sm:text-lg md:text-xl'>
+            <p className='text-center font-montserrat text-lg font-light sm:text-xl md:text-2xl'>
               Your search did not match any stories.
             </p>
           )}
@@ -159,7 +161,9 @@ const Articles: FC<Props> = () => {
             >
               <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg' />
 
-              <p className='px-5 py-2 font-montserrat font-extrabold'>Show more</p>
+              <p className='px-5 py-2 font-montserrat font-extrabold sm:text-lg md:text-xl'>
+                Show more
+              </p>
             </button>
           )}
 
@@ -170,7 +174,7 @@ const Articles: FC<Props> = () => {
             >
               <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg' />
 
-              <p className='px-5 py-2 font-playfair font-black'>Show less</p>
+              <p className='px-5 py-2 font-playfair font-black sm:text-lg md:text-xl'>Show less</p>
             </button>
           )}
         </div>

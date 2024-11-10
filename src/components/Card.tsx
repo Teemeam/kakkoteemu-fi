@@ -23,12 +23,12 @@ const Card: FC<Props> = ({ article }) => {
 
       <div className='w-11/12 flex-auto md:w-3/5'>
         <div className='flex flex-col items-start justify-center gap-1 md:gap-2'>
-          <p className='font-montserrat text-base font-black text-black sm:text-lg md:text-xl'>
+          <p className='font-montserrat font-black text-black sm:text-lg md:text-xl'>
             <a href={article.url} target='_blank'>
               {article.title}
             </a>
           </p>
-          <p className='font-montserrat font-light text-black'>{`${article.published}, ${article.publisher}`}</p>
+          <p className='font-montserrat text-xs font-light text-black sm:text-sm md:text-base'>{`${article.published}, ${article.publisher}`}</p>
         </div>
       </div>
     </div>
