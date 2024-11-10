@@ -1,5 +1,6 @@
 type Article = {
   type: 'web' | 'print';
+  form: string;
   title: string;
   url: string;
   image_id: string;

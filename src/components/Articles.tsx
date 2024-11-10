@@ -15,7 +15,7 @@ const Articles: FC<Props> = () => {
   const filterArticles = (article: Article) => {
     return (
       article.title.toLowerCase().includes(inputValue.toLowerCase()) &&
-      article.role.includes(buttonValue)
+      article.form.includes(buttonValue)
     );
   };
 
@@ -71,7 +71,7 @@ const Articles: FC<Props> = () => {
     /**
      * Create cards
      */
-    .map((article) => <Card article={article} />);
+    .map((article, i) => <Card key={`card_${i}`} article={article} />);
 
   return (
     <div className='relative w-full'>
@@ -91,46 +91,28 @@ const Articles: FC<Props> = () => {
         {/**
          * Buttons
          */}
-        <div className='my-7 flex w-full flex-col items-center justify-center gap-2 text-center sm:flex-row'>
-          <div className='flex items-center justify-between gap-2'>
-            {[
-              ['All', ''],
-              ['Code', 'code'],
-              ['Writing', 'writing'],
-            ].map(([label, value]) => (
-              <button
-                aria-selected={buttonValue === value}
-                className='group relative flex items-center justify-center'
-                onClick={() => setButtonValue(value as string)}
-              >
-                <div
-                  className={`absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f13995bb] to-[#faa894c1] blur-lg transition-opacity duration-200 ${
-                    buttonValue === value ? 'opacity-100' : 'opacity-0'
-                  } group-hover:opacity-100`}
-                />
+        <div className='my-7 flex flex-wrap items-center justify-center gap-2 text-center'>
+          {[
+            ['All', ''],
+            ['Data', 'data'],
+            ['Feature', 'feature'],
+            ['Game', 'game'],
+          ].map(([label, value], i) => (
+            <button
+              key={`button_${i}`}
+              aria-selected={buttonValue === value}
+              className='group relative flex items-center justify-center'
+              onClick={() => setButtonValue(value as string)}
+            >
+              <div
+                className={`absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg transition-opacity duration-200 ${
+                  buttonValue === value ? 'opacity-100' : 'opacity-0'
+                } group-hover:opacity-100`}
+              />
 
-                <p className='px-5 py-2 font-playfair font-black'>{label}</p>
-              </button>
-            ))}
-          </div>
-
-          <div className='flex items-center justify-between gap-2'>
-            {[
-              ['TV', 'https://drive.google.com/drive/folders/1iN8jvAqSwJnkTyqAggJ1copS3PbTWcHu'],
-              ['Radio', 'https://drive.google.com/drive/folders/1rKNfLYwMPW8wwYPjGIDQenUsDETxSX39'],
-            ].map(([label, url]) => (
-              <a
-                className='group relative flex items-center justify-center'
-                href={url}
-                target='_blank'
-              >
-                <div className='blur- absolute -z-10 h-1/2 w-9/12 bg-stone-300 blur-lg transition-colors duration-200 group-hover:bg-stone-400' />
-                <p className='px-5 py-2 font-playfair font-black text-black'>
-                  <span className='border-b border-black'>{label}</span>
-                </p>
-              </a>
-            ))}
-          </div>
+              <p className='px-3 py-2 font-montserrat font-extrabold sm:px-5'>{label}</p>
+            </button>
+          ))}
         </div>
 
         {/**
@@ -175,9 +157,9 @@ const Articles: FC<Props> = () => {
               className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(numberOfCards + 3)}
             >
-              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f13995bb] to-[#faa894c1] blur-lg' />
+              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg' />
 
-              <p className='px-5 py-2 font-playfair font-black'>Show more</p>
+              <p className='px-5 py-2 font-montserrat font-extrabold'>Show more</p>
             </button>
           )}
 
@@ -186,7 +168,7 @@ const Articles: FC<Props> = () => {
               className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(3)}
             >
-              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f13995bb] to-[#faa894c1] blur-lg' />
+              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg' />
 
               <p className='px-5 py-2 font-playfair font-black'>Show less</p>
             </button>
