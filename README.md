@@ -4,6 +4,8 @@ My personal website.
 
 _Published xx.xx.2024._
 
+![./public/share-background.png]()
+
 ## Used technologies
 
 - [Astro](https://astro.build/)
