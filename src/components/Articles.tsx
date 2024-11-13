@@ -105,7 +105,7 @@ const Articles: FC<Props> = () => {
               onClick={() => setButtonValue(value as string)}
             >
               <div
-                className={`absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg transition-opacity duration-200 ${
+                className={`absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f1e039bb] to-[#b5fa94c1] blur-lg transition-opacity duration-200 ${
                   buttonValue === value ? 'opacity-100' : 'opacity-0'
                 } group-hover:opacity-100`}
               />
@@ -159,7 +159,7 @@ const Articles: FC<Props> = () => {
               className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(numberOfCards + 3)}
             >
-              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg' />
+              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f1e039bb] to-[#b5fa94c1] blur-lg' />
 
               <p className='px-5 py-2 font-montserrat font-extrabold sm:text-lg md:text-xl'>
                 Show more
@@ -172,7 +172,7 @@ const Articles: FC<Props> = () => {
               className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(3)}
             >
-              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#c3f139bb] to-[#94fad8c1] blur-lg' />
+              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f1e039bb] to-[#b5fa94c1] blur-lg' />
 
               <p className='px-5 py-2 font-playfair font-black sm:text-lg md:text-xl'>Show less</p>
             </button>
