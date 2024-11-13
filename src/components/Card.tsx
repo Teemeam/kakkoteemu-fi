@@ -11,7 +11,7 @@ const Card: FC<Props> = ({ article }) => {
     article.type === 'web' ? `url(${baseUrl}${article.image_id}.jpg)` : `url(${article.image_id})`;
 
   return (
-    <div className='my-7 flex flex-col items-center justify-center gap-2 md:flex-row md:gap-5'>
+    <div className='my-xl gap-sm md:gap-lg flex flex-col items-center justify-center md:flex-row'>
       <a className='w-full flex-none md:w-2/5' href={article.url} target='_blank'>
         <div
           className='h-0 w-full bg-stone-200 bg-cover bg-center bg-no-repeat pb-[65%]'
@@ -22,7 +22,7 @@ const Card: FC<Props> = ({ article }) => {
       </a>
 
       <div className='w-11/12 flex-auto md:w-3/5'>
-        <div className='flex flex-col items-start justify-center gap-1 md:gap-2'>
+        <div className='gap-xs md:gap-sm flex flex-col items-start justify-center'>
           <p className='font-montserrat font-black text-black sm:text-lg md:text-xl'>
             <a href={article.url} target='_blank'>
               {article.title}

@@ -8,19 +8,36 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: {
-          ...defaultTheme.colors.green,
-          900: '#001e1e',
+        gradient1: {
+          step1: '#c3f139bb',
+          step2: '#94fad8bb',
         },
-        red: {
-          ...defaultTheme.colors.orange,
-          900: '#3f1e1e',
+        gradient2: {
+          step1: '#eafc92bb',
+          step2: '#9de3f9bb',
         },
-        orange: '#fb544d',
       },
       fontFamily: {
         montserrat: ['Montserrat\\ Variable', 'ui-sans-serif', ...defaultTheme.fontFamily.sans],
         playfair: ['Playfair\\ Display\\ Variable', 'Montserrat', 'ui-serif'],
+      },
+      gap: {
+        xs: '0.25rem',
+        sm: '0.5rem',
+        lg: '1.25rem',
+        xl: '1.75rem',
+      },
+      margin: {
+        xs: '0.25rem',
+        sm: '0.5rem',
+        lg: '1.25rem',
+        xl: '1.75rem',
+      },
+      padding: {
+        xs: '0.25rem',
+        sm: '0.5rem',
+        lg: '1.25rem',
+        xl: '1.75rem',
       },
     },
   },

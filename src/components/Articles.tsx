@@ -79,11 +79,11 @@ const Articles: FC<Props> = () => {
         {/**
          * Button header
          */}
-        <div className='my-7 text-center'>
-          <h2 className='my-5 font-playfair text-3xl font-black text-black sm:text-4xl md:my-7 md:text-5xl'>
+        <div className='my-xl text-center'>
+          <h2 className='my-lg md:my-xl font-playfair text-3xl font-black text-black sm:text-4xl md:text-5xl'>
             Recent stories
           </h2>
-          <p className='my-5 font-montserrat text-lg font-light text-black sm:text-xl md:my-7 md:text-2xl'>
+          <p className='my-lg md:my-xl font-montserrat text-lg font-light text-black sm:text-xl md:text-2xl'>
             Search by category
           </p>
         </div>
@@ -91,7 +91,7 @@ const Articles: FC<Props> = () => {
         {/**
          * Buttons
          */}
-        <div className='my-7 flex flex-wrap items-center justify-center gap-2 text-center'>
+        <div className='my-xl gap-sm flex flex-wrap items-center justify-center text-center'>
           {[
             ['All', ''],
             ['Data', 'data'],
@@ -110,7 +110,7 @@ const Articles: FC<Props> = () => {
                 } group-hover:opacity-100`}
               />
 
-              <p className='px-3 py-2 font-montserrat font-extrabold sm:px-5 sm:text-lg md:text-xl'>
+              <p className='py-sm sm:px-lg px-3 font-montserrat font-extrabold sm:text-lg md:text-xl'>
                 {label}
               </p>
             </button>
@@ -120,7 +120,7 @@ const Articles: FC<Props> = () => {
         {/**
          * Input header
          */}
-        <div className='mb-5 mt-7 text-center'>
+        <div className='mb-lg mt-xl text-center'>
           <p className='font-montserrat text-lg font-light text-black sm:text-xl md:text-2xl'>
             or start typing
           </p>
@@ -129,7 +129,7 @@ const Articles: FC<Props> = () => {
         {/*
          * Text input
          */}
-        <div className='mb-7 mt-5 text-center'>
+        <div className='mb-xl mt-lg text-center'>
           <input
             className='w-11/12 max-w-80 border-b border-black bg-transparent pb-0.5 text-center font-montserrat text-lg font-light focus:outline-none sm:text-xl md:text-2xl'
             value={inputValue}
@@ -140,7 +140,7 @@ const Articles: FC<Props> = () => {
         {/**
          * Articles
          */}
-        <div className='mx-auto my-7 w-full max-w-md md:max-w-3xl'>
+        <div className='my-xl mx-auto w-full max-w-md md:max-w-3xl'>
           {filtered_articles.length > 0 ? (
             data
           ) : (
@@ -153,15 +153,15 @@ const Articles: FC<Props> = () => {
         {/**
          * Show more button
          */}
-        <div className='my-7 flex items-center justify-center'>
+        <div className='my-xl flex items-center justify-center'>
           {filtered_articles.length > 3 && numberOfCards < filtered_articles.length && (
             <button
               className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(numberOfCards + 3)}
             >
-              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f1e039bb] to-[#b5fa94c1] blur-lg' />
+              <div className='from-gradient1-step1 to-gradient1-step2 absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b blur-lg' />
 
-              <p className='px-5 py-2 font-montserrat font-extrabold sm:text-lg md:text-xl'>
+              <p className='px-lg py-sm font-montserrat font-extrabold sm:text-lg md:text-xl'>
                 Show more
               </p>
             </button>
@@ -172,9 +172,11 @@ const Articles: FC<Props> = () => {
               className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(3)}
             >
-              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-[#f1e039bb] to-[#b5fa94c1] blur-lg' />
+              <div className='from-gradient1-step1 to-gradient1-step2 absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b blur-lg' />
 
-              <p className='px-5 py-2 font-playfair font-black sm:text-lg md:text-xl'>Show less</p>
+              <p className='px-lg py-sm font-playfair font-black sm:text-lg md:text-xl'>
+                Show less
+              </p>
             </button>
           )}
         </div>
