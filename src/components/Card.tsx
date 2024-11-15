@@ -12,7 +12,12 @@ const Card: FC<Props> = ({ article }) => {
 
   return (
     <div className='my-xl gap-sm md:gap-lg flex flex-col items-center justify-center md:flex-row'>
-      <a className='w-full flex-none md:w-2/5' href={article.url} target='_blank'>
+      <a
+        aria-label={article.title}
+        className='w-full flex-none md:w-2/5'
+        href={article.url}
+        target='_blank'
+      >
         <div
           className='h-0 w-full bg-stone-200 bg-cover bg-center bg-no-repeat pb-[65%]'
           style={{

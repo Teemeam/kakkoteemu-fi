@@ -100,7 +100,7 @@ const Articles: FC<Props> = () => {
           ].map(([label, value], i) => (
             <button
               key={`button_${i}`}
-              aria-selected={buttonValue === value}
+              aria-pressed={buttonValue === value}
               className='group relative flex items-center justify-center'
               onClick={() => setButtonValue(value as string)}
             >
