@@ -1,5 +1,7 @@
 import { type FC, useState } from 'react';
 import articles from '~/lib/articles';
+
+/* Components */
 import Card from './Card';
 
 type Props = {};
@@ -13,10 +15,9 @@ const Articles: FC<Props> = () => {
    * Filter articles based on button and input values
    */
   const filterArticles = (article: Article) => {
-    return (
-      article.title.toLowerCase().includes(inputValue.toLowerCase()) &&
-      article.form.includes(buttonValue)
-    );
+    const matchesTitle = article.title.toLowerCase().includes(inputValue.toLowerCase());
+    const matchesType = buttonValue === '' || article.types?.includes(buttonValue as ArticleType);
+    return matchesTitle && matchesType;
   };
 
   const filtered_articles = articles.filter(filterArticles);
@@ -32,8 +33,8 @@ const Articles: FC<Props> = () => {
       /**
        * Split date into parts
        */
-      let [a_day = '1', a_month = '1', a_year = '1970'] = a.published.split('.');
-      let [b_day = '1', b_month = '1', b_year = '1970'] = b.published.split('.');
+      let [a_day = '1', a_month = '1', a_year = '1970'] = a.publishedDate.split('.');
+      let [b_day = '1', b_month = '1', b_year = '1970'] = b.publishedDate.split('.');
 
       /**
        * Add leading zeros to day and month

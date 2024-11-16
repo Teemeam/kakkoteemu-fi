@@ -1,10 +1,14 @@
+type ArticleType = 'data' | 'feature' | 'game';
+
+type ContributorRole = 'coder' | 'producer' | 'writer';
+
 type Article = {
-  type: 'web' | 'print';
-  form: string;
+  platform: 'web' | 'print';
+  types?: ArticleType[];
+  roles: ContributorRole[];
   title: string;
   url: string;
-  image_id: string;
-  published: string;
+  imageId: string;
+  publishedDate: string;
   publisher: string;
-  role: string;
 };

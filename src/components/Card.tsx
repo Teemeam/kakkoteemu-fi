@@ -8,7 +8,9 @@ const Card: FC<Props> = ({ article }) => {
   const dpr = window.devicePixelRatio || 1;
   const baseUrl = `https://images.cdn.yle.fi/image/upload/w_500,f_auto,fl_lossy,q_auto:best,dpr_${dpr}/`;
   const bgUrl =
-    article.type === 'web' ? `url(${baseUrl}${article.image_id}.jpg)` : `url(${article.image_id})`;
+    article.platform === 'web'
+      ? `url(${baseUrl}${article.imageId}.jpg)`
+      : `url(${article.imageId})`;
 
   return (
     <div className='my-xl gap-sm md:gap-lg flex flex-col items-center justify-center md:flex-row'>
@@ -33,7 +35,7 @@ const Card: FC<Props> = ({ article }) => {
               {article.title}
             </a>
           </p>
-          <p className='font-montserrat text-xs font-light text-black sm:text-sm md:text-base'>{`${article.published}, ${article.publisher}`}</p>
+          <p className='font-montserrat text-xs font-light text-black sm:text-sm md:text-base'>{`${article.publishedDate}, ${article.publisher}`}</p>
         </div>
       </div>
     </div>
