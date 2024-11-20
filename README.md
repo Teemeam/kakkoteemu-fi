@@ -9,8 +9,6 @@ _Published xx.xx.2024._
 ## To-do
 
 - GH Workflow
-- htaccess & robots
-- Go through articles list
 
 ## Used technologies
 

@@ -235,7 +235,6 @@ const articles: Article[] = [
   },
   {
     platform: 'print',
-
     title:
       'Avautuvat sotilassaaret – Puolustusvoimien vuokralaisuus sotilassaarilla päättyy. Miltä saarten tulevaisuus näyttää?',
     url: 'https://drive.google.com/file/d/1qbTA0E3qbq5oDLrAxuo-_cNpJsqZMqxa/view?usp=sharing',
@@ -982,6 +981,38 @@ const articles: Article[] = [
     url: 'https://yle.fi/a/74-20040520',
     imageId: '39-113966864a7e718ba30a',
     publishedDate: '14.7.2023',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
+  {
+    platform: 'web',
+    types: ['feature'],
+    title: 'Tampereen rohkea kasvuloikka jätti tuumivan Turun kauas taakseen',
+    url: 'https://yle.fi/a/74-20040125',
+    imageId: '39-11268106481c6570acc1',
+    publishedDate: '9.7.2023',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Espoossa on “tavallinen” lukio, johon pyrkivät nyt vimmatusti nuoret ja opettajat – näin hyvän kierre saatiin aikaan',
+    url: 'https://yle.fi/a/74-20036932',
+    imageId: '39-1130469648b0ff775259',
+    publishedDate: '16.6.2023',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Katso koneesta, kuinka paljon terveys- ja sosiaalipalvelujen asiakasmaksut ovat nousseet kotikunnassasi',
+    url: 'https://yle.fi/a/74-20031860',
+    imageId: '39-1116247646760434cf1a',
+    publishedDate: '22.5.2023',
     publisher: 'Yle',
     roles: ['coder'],
   },

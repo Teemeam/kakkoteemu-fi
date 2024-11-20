@@ -9,12 +9,12 @@ module.exports = {
     extend: {
       colors: {
         gradient1: {
-          step1: '#daf139bb',
-          step2: '#faa794bb',
+          step1: '#fdf622',
+          step2: '#fc9e89dd',
         },
         gradient2: {
-          step1: '#f4fc92bb',
-          step2: '#f9bc9dbb',
+          step1: '#f4fc92dd',
+          step2: '#ff9d89bb',
         },
       },
       fontFamily: {
