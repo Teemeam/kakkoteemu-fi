@@ -4,15 +4,12 @@ My personal website.
 
 _Published xx.xx.2024._
 
-![](./public/share-background.png)
+![](./public/share.png)
 
 ## To-do
 
 - GH Workflow
 - htaccess & robots
-- Favicons
-- Check BaseHead
-- Share image
 - Go through articles list
 
 ## Used technologies

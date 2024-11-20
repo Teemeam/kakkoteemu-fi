@@ -9,12 +9,12 @@ module.exports = {
     extend: {
       colors: {
         gradient1: {
-          step1: '#c3f139bb',
-          step2: '#94fad8bb',
+          step1: '#daf139bb',
+          step2: '#faa794bb',
         },
         gradient2: {
-          step1: '#eafc92bb',
-          step2: '#9de3f9bb',
+          step1: '#f4fc92bb',
+          step2: '#f9bc9dbb',
         },
       },
       fontFamily: {
@@ -26,21 +26,21 @@ module.exports = {
         sm: '0.5rem',
         lg: '1.25rem',
         xl: '1.75rem',
-        '2xl': '2.5rem',
+        '2xl': '3.5rem',
       },
       margin: {
         xs: '0.25rem',
         sm: '0.5rem',
         lg: '1.25rem',
         xl: '1.75rem',
-        '2xl': '2.5rem',
+        '2xl': '3.5rem',
       },
       padding: {
         xs: '0.25rem',
         sm: '0.5rem',
         lg: '1.25rem',
         xl: '1.75rem',
-        '2xl': '2.5rem',
+        '2xl': '3.5rem',
       },
     },
   },
