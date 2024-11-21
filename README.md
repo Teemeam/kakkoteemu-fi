@@ -2,13 +2,9 @@
 
 My personal website.
 
-_Published xx.xx.2024._
+_Published 21.11.2024._
 
 ![](./public/share.png)
-
-## To-do
-
-- GH Workflow
 
 ## Used technologies
 
