@@ -19,7 +19,7 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ['Montserrat\\ Variable', 'ui-sans-serif', ...defaultTheme.fontFamily.sans],
-        playfair: ['Playfair\\ Display\\ Variable', 'Montserrat', 'ui-serif'],
+        playfair: ['Playfair\\ Display\\ Variable', 'Montserrat\\ Variable', 'ui-serif'],
       },
       gap: {
         xs: '0.25rem',
