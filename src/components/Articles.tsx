@@ -81,10 +81,10 @@ const Articles: FC<Props> = () => {
          * Button header
          */}
         <div className='my-xl text-center'>
-          <h2 className='my-lg md:my-xl font-playfair text-3xl font-black text-black sm:text-4xl md:text-5xl'>
+          <h2 className='my-lg font-playfair text-3xl font-black text-black sm:text-4xl md:my-xl md:text-5xl'>
             Recent stories
           </h2>
-          <p className='my-lg md:my-xl font-montserrat text-lg font-light text-black sm:text-xl md:text-2xl'>
+          <p className='my-lg font-montserrat text-lg font-light text-black sm:text-xl md:my-xl md:text-2xl'>
             Search by category
           </p>
         </div>
@@ -92,7 +92,7 @@ const Articles: FC<Props> = () => {
         {/**
          * Buttons
          */}
-        <div className='my-xl gap-sm flex flex-wrap items-center justify-center text-center'>
+        <div className='my-xl flex flex-wrap items-center justify-center gap-sm text-center'>
           {[
             ['All', ''],
             ['Data', 'data'],
@@ -106,12 +106,12 @@ const Articles: FC<Props> = () => {
               onClick={() => setButtonValue(value as string)}
             >
               <div
-                className={`from-gradient1-step1 to-gradient1-step2 absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b blur-lg transition-opacity duration-200 ${
+                className={`absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-gradient1-step1 to-gradient1-step2 blur-lg transition-opacity duration-200 ${
                   buttonValue === value ? 'opacity-100' : 'opacity-0'
                 } group-hover:opacity-100`}
               />
 
-              <p className='py-sm sm:px-lg px-3 font-montserrat font-extrabold sm:text-lg md:text-xl'>
+              <p className='px-3 py-sm font-montserrat font-extrabold sm:px-lg sm:text-lg md:text-xl'>
                 {label}
               </p>
             </button>
@@ -141,7 +141,7 @@ const Articles: FC<Props> = () => {
         {/**
          * Articles
          */}
-        <div className='my-xl mx-auto w-full max-w-md md:max-w-3xl'>
+        <div className='mx-auto my-xl w-full max-w-md md:max-w-3xl'>
           {filtered_articles.length > 0 ? (
             data
           ) : (
@@ -157,10 +157,10 @@ const Articles: FC<Props> = () => {
         <div className='my-xl flex items-center justify-center'>
           {filtered_articles.length > 3 && numberOfCards < filtered_articles.length && (
             <button
-              className='group relative flex items-center justify-center'
+              className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(numberOfCards + 3)}
             >
-              <div className='from-gradient1-step1 to-gradient1-step2 absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b opacity-0 blur-lg transition-opacity duration-200 group-hover:opacity-100' />
+              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-gradient1-step1 to-gradient1-step2 blur-lg' />
 
               <p className='px-lg py-sm font-montserrat font-extrabold sm:text-lg md:text-xl'>
                 Show more
@@ -170,10 +170,10 @@ const Articles: FC<Props> = () => {
 
           {filtered_articles.length > 3 && numberOfCards >= filtered_articles.length && (
             <button
-              className='group relative flex items-center justify-center'
+              className='relative flex items-center justify-center'
               onClick={() => setNumberOfCards(3)}
             >
-              <div className='from-gradient1-step1 to-gradient1-step2 absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b opacity-0 blur-lg transition-opacity duration-200 group-hover:opacity-100' />
+              <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-gradient1-step1 to-gradient1-step2 blur-lg' />
 
               <p className='px-lg py-sm font-playfair font-black sm:text-lg md:text-xl'>
                 Show less
