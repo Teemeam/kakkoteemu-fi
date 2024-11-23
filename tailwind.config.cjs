@@ -21,21 +21,7 @@ module.exports = {
         montserrat: ['Montserrat\\ Variable', 'ui-sans-serif', ...defaultTheme.fontFamily.sans],
         playfair: ['Playfair\\ Display\\ Variable', 'Montserrat\\ Variable', 'ui-serif'],
       },
-      gap: {
-        xs: '0.25rem',
-        sm: '0.5rem',
-        lg: '1.25rem',
-        xl: '1.75rem',
-        '2xl': '3.5rem',
-      },
-      margin: {
-        xs: '0.25rem',
-        sm: '0.5rem',
-        lg: '1.25rem',
-        xl: '1.75rem',
-        '2xl': '3.5rem',
-      },
-      padding: {
+      spacing: {
         xs: '0.25rem',
         sm: '0.5rem',
         lg: '1.25rem',
