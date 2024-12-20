@@ -1020,7 +1020,7 @@ const articles: Article[] = [
     platform: 'web',
     types: ['data'],
     title:
-      'Haitallinen valo lisääntyy valtavasti Suomessa – katso, kuinka saastunut oma asuinpaikkasi on',
+      'Ledilampuilla on heikkous, josta kärsii lähes koko Suomi – tästä on kyse',
     url: 'https://yle.fi/a/74-20128635',
     imageId: '39-13977556763d124d1c80',
     publishedDate: '20.12.2024',
