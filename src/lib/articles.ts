@@ -1016,6 +1016,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Haitallinen valo lisääntyy valtavasti Suomessa – katso, kuinka saastunut oma asuinpaikkasi on',
+    url: 'https://yle.fi/a/74-20128635',
+    imageId: '39-13977556763d124d1c80',
+    publishedDate: '20.12.2024',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
