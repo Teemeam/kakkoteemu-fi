@@ -1027,6 +1027,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Katso, mihin koulukuvien lapset päätyivät aikuisina – lapsuuden kotikunnalla on yllättävä vaikutus',
+    url: 'https://yle.fi/a/74-20131701',
+    imageId: '39-139706967629907634cd',
+    publishedDate: '25.12.2024',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
