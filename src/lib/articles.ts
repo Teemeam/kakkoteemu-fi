@@ -1038,6 +1038,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Monet keskisuuretkin kaupungit ovat ongelmissa – katso, onko oman kuntasi talous ahdingossa',
+    url: 'https://yle.fi/a/74-20138956',
+    imageId: '39-141593367a0d0caaa7aa',
+    publishedDate: '4.2.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
