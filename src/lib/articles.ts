@@ -1049,6 +1049,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+    {
+    platform: 'web',
+    types: ['game'],
+    title:
+      'Tiedätkö Suomesta oikeasti mitään? Ylen Kuntavisassa joudut lähes mahdottomaan tehtävään',
+    url: 'https://yle.fi/a/74-20147028',
+    imageId: '39-143641867d5257a2023a',
+    publishedDate: '15.3.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
