@@ -1049,7 +1049,7 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
-    {
+  {
     platform: 'web',
     types: ['game'],
     title:
@@ -1057,6 +1057,17 @@ const articles: Article[] = [
     url: 'https://yle.fi/a/74-20147028',
     imageId: '39-143641867d5257a2023a',
     publishedDate: '15.3.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
+  {
+    platform: 'web',
+    types: ['feature'],
+    title:
+      '13-vuotias testiprofiili ilmiantoi videoita Tiktokissa – yhtiö näytti vihreää valoa itsemurhaan kannustamiselle',
+    url: 'https://yle.fi/a/74-20134762',
+    imageId: '39-142485167b70b83e44b5',
+    publishedDate: '17.3.2025',
     publisher: 'Yle',
     roles: ['coder'],
   },
