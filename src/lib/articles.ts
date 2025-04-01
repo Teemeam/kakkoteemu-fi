@@ -1071,6 +1071,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['game'],
+    title:
+      'Oletko aina asunut väärässä paikassa? Tämä peli paljastaa, minne sinun kannattaisi muuttaa',
+    url: 'https://yle.fi/a/74-20150579',
+    imageId: '39-144035267e129c07e1a3',
+    publishedDate: '29.3.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
