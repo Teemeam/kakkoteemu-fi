@@ -1082,6 +1082,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['game'],
+    title:
+      'Tämä peli paljastaa karusti, jos et osaa äänestää – vain todellinen vaalinero saa täydet 14/14',
+    url: 'https://yle.fi/a/74-20148677',
+    imageId: '39-144086567e28b3dd21a8',
+    publishedDate: '3.4.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
