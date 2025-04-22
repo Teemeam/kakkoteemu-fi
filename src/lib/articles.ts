@@ -1093,6 +1093,28 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Näin paljon enemmän kahvikuppisi maksavat nyt kuin vuosi sitten – katso koneesta tarkka laskelma',
+    url: 'https://yle.fi/a/74-20156872',
+    imageId: '39-145118267fd0b349439a',
+    publishedDate: '18.4.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
+  {
+    platform: 'web',
+    types: ['feature'],
+    title:
+      'Tämä aikajana näyttää, miten yhden ihmisen ideasta kasvoi Rovaniemen miljoonabisnes',
+    url: 'https://yle.fi/a/74-20156515',
+    imageId: '39-145257668009d6394fab',
+    publishedDate: '19.4.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
