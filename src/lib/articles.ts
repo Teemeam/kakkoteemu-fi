@@ -1115,6 +1115,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Lääkisläisille maistuu liha, yliopisto­ravintola selvitti – osaatko itse valita luontoystävällisen lounaan?',
+    url: 'https://yle.fi/a/74-20169097',
+    imageId: '39-1485761685bdf0db409c',
+    publishedDate: '1.7.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
