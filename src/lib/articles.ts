@@ -1126,6 +1126,28 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Yle selvitti: pahoinpitelyn uhri voi odottaa oikeutta vuosia – miestä lyötiin kattilalla, pahoinpitelijälle korvauksia',
+    url: 'https://yle.fi/a/74-20164829',
+    imageId: '39-151968668c0166753c91',
+    publishedDate: '10.9.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Yle selvitti, miten suomalaiset pahoinpitelevät toisiaan – katso, miten oma kuntasi eroaa muista',
+    url: 'https://yle.fi/a/74-20154672',
+    imageId: '39-1484449685923e7f2274',
+    publishedDate: '10.9.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
