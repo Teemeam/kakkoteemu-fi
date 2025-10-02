@@ -1148,6 +1148,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Näin Ylen puoluekannatusmittaus syntyy',
+    url: 'https://yle.fi/a/74-20178647',
+    imageId: '39-152008168c126a1bce57',
+    publishedDate: '2.10.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
