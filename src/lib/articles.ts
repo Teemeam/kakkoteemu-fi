@@ -1159,6 +1159,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['feature'],
+    title:
+      'Opettaja lähti ostoksille, pian kone murskasi 16-vuotiaan Veetin käden: ”Se ammatti oli siinä”',
+    url: 'https://yle.fi/a/74-20187305',
+    imageId: '39-153511168e63c35dcb77',
+    publishedDate: '12.10.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
