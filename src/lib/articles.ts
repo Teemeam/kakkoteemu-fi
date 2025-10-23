@@ -1170,6 +1170,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Monet päiväkotipihat ovat toistensa tylsiä kopioita – selvitimme, millaisia Tampereelta löytyy',
+    url: 'https://yle.fi/a/74-20183499',
+    imageId: '39-154204168f8b646b5fbf',
+    publishedDate: '23.10.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
