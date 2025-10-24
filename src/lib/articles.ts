@@ -1174,7 +1174,7 @@ const articles: Article[] = [
     platform: 'web',
     types: ['data'],
     title:
-      'Monet päiväkotipihat ovat toistensa tylsiä kopioita – selvitimme, millaisia Tampereelta löytyy',
+      'Moni päiväkotipiha on tylsä – tästä se johtuu',
     url: 'https://yle.fi/a/74-20183499',
     imageId: '39-154204168f8b646b5fbf',
     publishedDate: '23.10.2025',
