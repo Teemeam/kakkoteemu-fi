@@ -162,7 +162,7 @@ const Articles: FC<Props> = () => {
             >
               <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-gradient1-step1 to-gradient1-step2 blur-lg' />
 
-              <p className='px-lg py-sm font-montserrat font-extrabold sm:text-lg md:text-xl'>
+              <p className='px-lg py-sm font-montserrat font-extrabold text-black sm:text-lg md:text-xl'>
                 Show more
               </p>
             </button>
@@ -175,7 +175,7 @@ const Articles: FC<Props> = () => {
             >
               <div className='absolute -z-10 h-1/2 w-9/12 bg-gradient-to-b from-gradient1-step1 to-gradient1-step2 blur-lg' />
 
-              <p className='px-lg py-sm font-playfair font-black sm:text-lg md:text-xl'>
+              <p className='px-lg py-sm font-montserrat font-extrabold text-black sm:text-lg md:text-xl'>
                 Show less
               </p>
             </button>
