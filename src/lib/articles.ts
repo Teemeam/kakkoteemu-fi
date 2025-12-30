@@ -1181,6 +1181,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Tällaista karttaa et ole nähnyt ikinä – paljastaa meille hankalan äänteen leviämisen suomen kieleen',
+    url: 'https://yle.fi/a/74-20198415',
+    imageId: '39-15719416943fa8f56d2c',
+    publishedDate: '30.12.2025',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
