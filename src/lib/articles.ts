@@ -1192,6 +1192,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Ylen suuri koirakone paljastaa: cityhauva mahtuu laukkuun, maalla koirat ovat isompia',
+    url: 'https://yle.fi/a/74-20197930',
+    imageId: '39-15703606940533f899fc',
+    publishedDate: '6.1.2026',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
