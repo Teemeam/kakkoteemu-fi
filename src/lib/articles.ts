@@ -1203,6 +1203,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Harvinainen jäätalvi toi vaaran Suomenlahdelle – öljyonnettomuus leviäisi piilossa jään alla',
+    url: 'https://yle.fi/a/74-20211459',
+    imageId: '39-15819276968da69e9449',
+    publishedDate: '24.2.2026',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
