@@ -1214,6 +1214,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['feature'],
+    title:
+      'Yle paljastaa uutta tietoa Pohjanmaalla kadonneesta suurperheestä',
+    url: 'https://yle.fi/a/74-20224932',
+    imageId: '39-163953969fd97f89d9e8',
+    publishedDate: '10.5.2026',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
