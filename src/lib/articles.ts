@@ -1220,7 +1220,7 @@ const articles: Article[] = [
     title:
       'Yle paljastaa uutta tietoa Pohjanmaalla kadonneesta suurperheestä',
     url: 'https://yle.fi/a/74-20224932',
-    imageId: '39-163953969fd97f89d9e8',
+    imageId: '39-163953869fd97f79790a',
     publishedDate: '10.5.2026',
     publisher: 'Yle',
     roles: ['coder'],
