@@ -1225,6 +1225,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['feature'],
+    title:
+      'Pikkukaupungin naisia ilmestyi tekaistuihin alastonkuviin netissä: epäilty löytyi lähempää kuin kukaan uskoi',
+    url: 'https://yle.fi/a/74-20227304',
+    imageId: '39-16470766a0f01d4851aa',
+    publishedDate: '22.5.2026',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
