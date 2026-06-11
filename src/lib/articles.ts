@@ -1236,6 +1236,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+  {
+    platform: 'web',
+    types: ['feature'],
+    title:
+      'Elon Musk rakentaa vaivihkaa valtavaa imperiumia Texasiin – suunnitelma koskee myös sinua',
+    url: 'https://yle.fi/a/74-20230856',
+    imageId: '39-16585336a296939a76b4',
+    publishedDate: '11.6.2026',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
