@@ -1251,7 +1251,7 @@ const articles: Article[] = [
     platform: 'web',
     types: ['data'],
     title:
-      'Nämä kaksi sanaa jakavat Suomen vuodesta toiseen kahtia – ”Hämmäs­tyttävää”, sanoo suomen kielen professori',
+      'Suomen halki kulkee erikoinen linja – katso, kummalla puolella sinä asut',
     url: 'https://yle.fi/a/74-20228484',
     imageId: '39-16629426a32846234c8d',
     publishedDate: '18.6.2026',
