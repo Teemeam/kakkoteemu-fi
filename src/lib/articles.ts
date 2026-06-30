@@ -1258,6 +1258,17 @@ const articles: Article[] = [
     publisher: 'Yle',
     roles: ['coder'],
   },
+    {
+    platform: 'web',
+    types: ['data'],
+    title:
+      'Suurin osa pahoinpitelijöistä saa kuuden euron päiväsakot – testaa millaisen tuomion antaisit',
+    url: 'https://yle.fi/a/74-20177539',
+    imageId: '39-152358168c940bbdb991',
+    publishedDate: '30.6.2026',
+    publisher: 'Yle',
+    roles: ['coder'],
+  },
 ];
 
 export default articles;
